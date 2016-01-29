@@ -1,0 +1,154 @@
+*
+{
+  /*  outline: black dotted 1px;*/
+}
+
+div.body
+{
+	width: 900px;
+	height:1000px;
+
+}
+
+#container
+{
+	width: 900px;
+	height: 1000px;
+	background-color: black;
+	outline: solid black 20px;
+}
+
+button
+{
+	background-color:orange;
+	color:white;
+	margin-left: 100px;
+	border-radius: 15px;
+}
+
+	div.headerbar
+	{
+		background-color: black;
+		width: 900px; 
+		height: 60px;
+		display: inline-block;
+	}
+		div.headerbar img
+		{
+			margin-left: 20px;
+		}
+			div.headerbar p
+			{
+				position: absolute;
+				display: inline-block;
+				right: 600px;
+				color: white;
+			}
+
+	div.nav1
+	{
+	width: 900px;
+	height: 40px;
+	font-size: 13px;
+	font-family: arial;
+	background-color: #474747;
+	}
+
+		div.nav1 ul
+		{
+		font-family: arial;
+		font-size: 15px;
+		display: inline-block;
+		margin-top: 12px;
+		padding-left: 10px;
+		border-left-width: 1px; 
+		vertical-align: top;
+		}
+
+			div.nav1 ul li
+			{
+			display: inline;
+			margin-bottom: 200px;
+			margin-left: 10px;
+			border-right:solid white;
+			border-right-width: 1px;
+			padding-right: 10px;
+
+			}
+
+	div.contentbox
+		{
+		display: flex;
+		height: 140px;
+		text-align: center;
+		border: solid black 1px;
+		}	
+
+		div.box1, .box2, .box3, .box4
+			{
+			display: inline-block;
+			width: 200px;
+			height: 140px;
+			background-color: #474747;
+			text-align: center;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 20px;
+			}
+
+
+	div.blackbox
+	{
+		color:white;
+		margin-left: 30px;
+	}
+		div.blackbox h2
+		{
+			padding-top: 30px;
+			font-family: arial;
+		}
+
+		div.portfolio 
+		{
+			display: flex;
+			background-color: #474747;
+		}
+			div.portfolio img
+			{
+				padding-left: 10px;
+			}
+				div.box5, .box6, .box7, .box8
+				{
+					display: inline;
+					height: 240px;
+					background-color: #474747;
+					font-family: arial;
+				}
+
+					div.box5,  h4
+					{
+						color:orange;
+					}
+
+						div.box5, .box6, .box7, .box8, h4 p
+						{
+							color:white;
+						}	
+
+	div.footer p
+	{
+		text-align: right;
+		font-size: 11px;
+		font-color:gray;
+		background-color: #474747;
+		margin: 0px auto;
+	}
+
+	 h3{
+		background-color: #474747;
+		font-color:white;
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-bottom: 10px;
+		margin: 0px auto;
+	}
